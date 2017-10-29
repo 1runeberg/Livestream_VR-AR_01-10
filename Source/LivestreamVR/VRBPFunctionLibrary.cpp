@@ -8,7 +8,7 @@ void UVRBPFunctionLibrary::MoveActor(AActor* ActorToMove, USceneComponent* Movem
 	{
 		// Setup rotation to be used in this function
 		FRotator NewRotation;
-
+		
 		// Check if we have a movement reference, if so use it as the direction
 		if (MovementReference->IsValidLowLevel())
 		{

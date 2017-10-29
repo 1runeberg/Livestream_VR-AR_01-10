@@ -6,5 +6,6 @@ Code &amp; Project files for the UE4 VR/AR Livestreams aired at:
 
 | Branch | Episode | Aired On | Engine ver | Description |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| master  | 02  | 22-Oct-2017 | 4.17.2 | VR Locomotion &amp; Development Workflow  |
+| master  | 03  | 29-Oct-2017 | 4.17.2/4.18.0 | Gaze Mechanic|
+| Episode-02  | 02  | 22-Oct-2017 | 4.17.2 | VR Locomotion &amp; Development Workflow  |
 | Episode-01  | 01  | 15-Oct-2017 | 4.17.2 |Creating a VR Project from Scratch |
