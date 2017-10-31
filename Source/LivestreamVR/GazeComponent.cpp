@@ -47,8 +47,10 @@ void UGazeComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorC
 		// Check if we have a hit
 		if (bHasHit && OutHit.GetActor()->IsValidLowLevel())
 		{
-			GEngine->AddOnScreenDebugMessage(INDEX_NONE, 1.f, FColor(0, 255, 0), TEXT("A hit from C++"), false);
-			UE_LOG(LogTemp, Warning, TEXT("TEST"));
+			//GEngine->AddOnScreenDebugMessage(INDEX_NONE, 1.f, FColor::Turquoise, TEXT("A hit from C++"), false);
+			//UE_LOG(LogTemp, Warning, TEXT("TEST"));
+
+			OnGazeHit.Broadcast(OutHit);
 		}
 	}
 		

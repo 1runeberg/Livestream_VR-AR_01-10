@@ -8,6 +8,7 @@
 #include "Kismet/KismetSystemLibrary.h"
 #include "GazeComponent.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnGazeHit, FHitResult, OutHit);
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class LIVESTREAMVR_API UGazeComponent : public USceneComponent
@@ -29,6 +30,9 @@ public:
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "VR")
 	FVector HMDOffset = FVector(0.f, 0.f, 25.f);
+
+	UPROPERTY(BlueprintAssignable, Category = "VR")
+	FOnGazeHit OnGazeHit;
 
 public:	
 	// Called every frame
