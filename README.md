@@ -1,4 +1,4 @@
-_<b>Tentative date of next livestream: 10 Dec 2017</b>_
+_<b>Tentative date of next livestream: 10 Dec 2017</b>_ 
 
 # Livestream_VR-AR_01-10
 Code &amp; Project files for the UE4 VR/AR Livestreams aired at: 
