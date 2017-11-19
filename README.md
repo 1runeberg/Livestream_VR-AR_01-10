@@ -1,3 +1,5 @@
+_Tentative date of next livestream: 10 Dec 2017_
+
 # Livestream_VR-AR_01-10
 Code &amp; Project files for the UE4 VR/AR Livestreams aired at: 
 [YouTube](https://www.youtube.com/channel/UCCUwqylv61tFggp6sIcNH6w)
